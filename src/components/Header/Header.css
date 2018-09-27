@@ -1,0 +1,20 @@
+.header {
+    min-height: 400px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 180px 20px 140px;
+    text-align: center;
+    background-color: rgb(44, 50, 60);
+    color: white;
+    background-image: url('../../assets/images/tetris.jpg');
+    background-repeat: repeat;
+    background-size: 800px;
+
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 1.5rem;
+}

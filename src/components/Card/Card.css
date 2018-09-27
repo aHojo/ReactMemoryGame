@@ -1,0 +1,14 @@
+.click-item {
+    background-size: cover;
+    height: 170px;
+    width: 170px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    cursor: pointer;
+    background-position: 50% center;
+    margin: 8px 25px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(241, 241, 241);
+    border-image: initial;
+    border-radius: 3px;
+}

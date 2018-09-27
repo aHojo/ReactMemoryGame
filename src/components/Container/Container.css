@@ -1,0 +1,9 @@
+.container-me {
+    display: flex;
+    min-height: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 100px 50px 100px;
+    width: 90%;
+    margin: 0px auto;
+}

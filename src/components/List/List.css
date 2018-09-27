@@ -1,0 +1,23 @@
+ul {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 33.3%;
+    font-size: 2rem;
+    color: white;
+}
+
+li a {
+    color: white;
+}
+
+li a:hover {
+    color: red;
+}
