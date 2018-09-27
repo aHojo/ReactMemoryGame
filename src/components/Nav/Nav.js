@@ -1,9 +1,9 @@
 import React from 'react';
 import List from '../List';
 import './Nav.css'
-const Nav = () => (
+const Nav = ({score, topscore}) => (
     <nav id="nav-override" className="navbar navbar-expand-lg navbar-light bg-light">
-        <List />
+        <List score={score} topscore={topscore} />
     </nav>
 );
 

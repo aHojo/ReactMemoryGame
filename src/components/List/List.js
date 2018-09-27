@@ -1,7 +1,7 @@
 import React from 'react';
 import './List.css';
 
-const List = () => (
+const List = ({score, topscore}) => (
 
         <ul className="navbar-nav">
             <li className="nav-item nav-brand">
@@ -11,7 +11,7 @@ const List = () => (
                 Click an image to begin!
             </li>
             <li className="nav-item">
-                Score: 0 | Top Score: 0
+                Score: {score} | Top Score: {topscore}
             </li>
         </ul>
 );
