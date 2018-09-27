@@ -36,14 +36,9 @@ class App extends Component {
 		for(let i = 0; i < image.length; i++) {
 			if(image[i].id === id) {
 				if(image[i].clicked){
-					let resetimages = images.map(x => {
-						return {id: x.id,
-								img: x.img,
-								clicked: false}
-						});
-					console.log(resetimages);
-					alert("Oops, better luck next time!");
-					return this.setState({images: resetimages, score: 0});
+					
+					return this.reset();
+
 				}else{ 
 					image[i].clicked = true;
 				}
@@ -56,6 +51,17 @@ class App extends Component {
 			this.setState({images: shuffle(image), score: this.state.score + 1});
 		}
 		
+	}
+
+	reset = () => {
+		let resetimages = images.map(x => {
+			return {id: x.id,
+					img: x.img,
+					clicked: false}
+			});
+		console.log(resetimages);
+		alert("Oops, better luck next time!");
+		this.setState({images: resetimages, score: 0});
 	}
 
 
